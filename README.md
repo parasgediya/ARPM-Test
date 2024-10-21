@@ -1,5 +1,16 @@
 # ARPM Test
 
+## Setup Instructions
+
+- Clone the repository [ARPM Test](git@github.com:parasgediya/ARPM-Test.git).
+- Open the console and cd your project root directory
+- Run `composer install` or ```composer update```
+- Run `php artisan key:generate`
+- Run `php artisan serve`
+  This return project URL : http://localhost:8000
+  Open in your browser
+
+  
 ## Task 1: Communication
 
 - Generate a 10 x 52 table where each value is drawn from a standard uniform distribution.
